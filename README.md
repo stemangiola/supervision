@@ -1,6 +1,4 @@
-# supervision
-
-Resources for students in order of priority
+# Resources for students in order of priority
 
 1)	Rstudio https://ourcodingclub.github.io/tutorials/intro-to-r/
 2)	Tidyverse https://www.r-bloggers.com/2021/04/tidyverse-in-r-complete-tutorial/
@@ -12,3 +10,14 @@ Resources for students in order of priority
 8)	Single cell analyses using Seurat https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
 9)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
 10)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
+
+# Strategy to build a document
+
+1) Create Google doc
+2) create an automatic table of content (based on headers, google how to do it)
+3) Write the headers of the main sections (whatever the requirements are, e.g. introduction, rationale, methods, results)
+4) Write the headers of the subsections
+5) Write the headers of the sub-subsections
+6) Write the titles of the paragraphs for each sub-subsection (these describe what each paragraph includes, a the end before submission they will be deleted)
+7) Ask feedback to the supervisor, and redo points 2-6 until there is no more feedback
+8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
