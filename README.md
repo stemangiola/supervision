@@ -31,3 +31,7 @@
 6) Write the titles of the paragraphs for each sub-subsection (these describe what each paragraph includes, a the end before submission they will be deleted)
 7) Ask feedback to the supervisor, and redo points 2-6 until there is no more feedback
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
+
+# Various notes
+
+
