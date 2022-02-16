@@ -1,7 +1,7 @@
 # Resources for students in order of priority
 
 1)	Rstudio https://ourcodingclub.github.io/tutorials/intro-to-r/
-2)	Tidyverse
+2)	Tidyverse tutorials:
   - https://www.r-bloggers.com/2021/04/tidyverse-in-r-complete-tutorial/
   - https://www.datacamp.com/community/tutorials/tidyverse-tutorial-r
   - https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=4 
