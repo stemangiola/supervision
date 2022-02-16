@@ -33,5 +33,11 @@
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
 # Various notes
+- Structure of a document
+- Title
+- Sections usually are mandatory and given
+- Subsections should have 2 or more sub-subsections
+- Sub-subsections should have 2 or more paragraphs 
+- Paragraphs should have a title (temporary). Each paragraph = 200 words
 
 
