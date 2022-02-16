@@ -3,9 +3,16 @@
 1)	Rstudio https://ourcodingclub.github.io/tutorials/intro-to-r/
 2)	Tidyverse
   - https://www.r-bloggers.com/2021/04/tidyverse-in-r-complete-tutorial/
-  - <ADD OTHERS HERE>
-  - <ADD OTHERS HERE>
-  - <ADD OTHERS HERE>
+  - https://www.datacamp.com/community/tutorials/tidyverse-tutorial-r
+  - https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=4 
+  - https://campus.datacamp.com/courses/working-with-data-in-the-tidyverse/explore-your-data?ex=1 
+  - https://www.r-bloggers.com/2021/04/tidyverse-in-r-complete-tutorial/
+  - https://monashbioinformaticsplatform.github.io/r-more/topics/tidyverse.html
+  - https://app.datacamp.com/learn/courses/categorical-data-in-the-tidyverse 
+  - https://app.datacamp.com/learn/courses/machine-learning-in-the-tidyverse
+  - https://campus.datacamp.com/courses/joining-data-with-dplyr/joining-tables-1?ex=1 
+  - https://datacarpentry.org/R-ecology-lesson/03-dplyr.html 
+  - https://www.analyticsvidhya.com/blog/2019/05/beginner-guide-tidyverse-most-powerful-collection-r-packages-data-science/
 4)	Git tuorial https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 5)	Github tutorial https://guides.github.com/activities/hello-world/
 6)	Git in Rstudio https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/
