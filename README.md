@@ -33,10 +33,15 @@
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
 # Various notes
-- Record the meeting every time
-- Prepare the main questions before the meeting 
+- Record the meeting every time (For ZOOM, always share the screen and NOT the single application)
 - When you meet problems, try to solve yourself first. (google; start with a simpler example)
-- Stay an activate attitude to the project and study. It is normal to meet the errors. Sometimes, it will take plenty of time to fix the error and debug the codes.
+- Work in a R project all the times (The R project must be connected with a github repository)
+-	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}). 
+-	Email helpdesk to make sure you are working in the right hard drive
+-	Commit at the end of the day ONLY the R files to your github repository
+-	Nowhere in the variables or file names there should be a space character “ “ 
+
+
 
 
 
