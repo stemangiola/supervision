@@ -33,11 +33,10 @@
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
 # Various notes
-- Structure of a document
-- Title
-- Sections usually are mandatory and given
-- Subsections should have 2 or more sub-subsections
-- Sub-subsections should have 2 or more paragraphs 
-- Paragraphs should have a title (temporary). Each paragraph = 200 words
+- Record the meeting every time
+- Prepare the main questions before the meeting 
+- When you meet problems, try to solve yourself first. (google; start with a simpler example)
+- Stay an activate attitude to the project and study. It is normal to meet the errors. Sometimes, it will take plenty of time to fix the error and debug the codes.
+
 
 
