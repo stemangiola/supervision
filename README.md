@@ -33,3 +33,9 @@
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
 # Further notes
+1) Variable names and file names should not include acronyms and if your cousin opens your code should be able to understand what the variable is from the variable name
+2) A bad example is df, which is not a word included in the English disctionary
+3) A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
+4) ForZOOM, always share the screen and NOT the single application
+5) For ZOOM always ask to start the recording at enery meeting, at the very beginning
+
