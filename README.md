@@ -20,6 +20,7 @@
 8)	Single cell analyses using Seurat https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
 9)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
 10)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
+11)	Unit-tests when building packages/sorftware with `testthat` https://testthat.r-lib.org/
 
 # Strategy to build a document
 
