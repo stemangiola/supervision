@@ -17,7 +17,9 @@
 5)	Git in Rstudio https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/
 6)	Git/github in Rstudio (video) https://www.youtube.com/watch?v=megZYkCLMA4 
 7)	Tidy transcriptomics https://stemangiola.github.io/bioc2021_tidytranscriptomics/articles/tidytranscriptomics.html
-8)	Single cell analyses using Seurat https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
+8)	Single cell analyses using Seurat 
+- https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
+- https://satijalab.org/seurat/articles/integration_introduction.html
 9)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
 10)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
 11)	Unit-tests when building packages/sorftware with `testthat` https://testthat.r-lib.org/
