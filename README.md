@@ -42,3 +42,23 @@
 4) ForZOOM, always share the screen and NOT the single application
 5) For ZOOM always ask to start the recording at enery meeting, at the very beginning
 
+# How to close your project
+
+Please add the following documentation to the README
+
+- list all directories in the local git directory (some of the will be also present in github) and what they include
+- list all R script and declare what they do in lay terms, what inputs they take and what outputs they produce
+- list all local data files and what they include
+- Add all the steps with code for reproducing your results from raw data. For example,
+
+```bash
+# Preprocess the data
+Rscript MY_SCRIPT.R
+
+# Execute differential analyses for XXX dataset
+makeflow XXX
+
+...
+```
+
+- Try to reproduce your own documentation/code and see fi the results/figures get produced as expected without errors (maybe do al this in a copy of your repository to avoid to overwrite your results).
