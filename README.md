@@ -35,6 +35,14 @@
 7) Ask feedback to the supervisor, and redo points 2-6 until there is no more feedback
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
+# Coding notes
+- When you meet problems, try to solve yourself first. (google; start with a simpler example)
+- Work in a R project all the times (The R project must be connected with a github repository)
+-	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}). 
+-	Email helpdesk to make sure you are working in the right hard drive
+-	Commit at the end of the day ONLY the R files to your github repository
+-	Nowhere in the variables or file names there should be a space character “ “ 
+
 # Further notes
 1) Scientific writing course https://www.coursera.org/learn/sciwrite
 2) Variable names and file names should not include acronyms and if your cousin opens your code should be able to understand what the variable is from the variable name
@@ -63,3 +71,4 @@ makeflow XXX
 ```
 
 - Try to reproduce your own documentation/code and see fi the results/figures get produced as expected without errors (maybe do al this in a copy of your repository to avoid to overwrite your results).
+
