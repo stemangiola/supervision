@@ -17,9 +17,12 @@
 5)	Git in Rstudio https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/
 6)	Git/github in Rstudio (video) https://www.youtube.com/watch?v=megZYkCLMA4 
 7)	Tidy transcriptomics https://stemangiola.github.io/bioc2021_tidytranscriptomics/articles/tidytranscriptomics.html
-8)	Single cell analyses using Seurat https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
+8)	Single cell analyses using Seurat 
+- https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
+- https://satijalab.org/seurat/articles/integration_introduction.html
 9)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
 10)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
+11)	Unit-tests when building packages/sorftware with `testthat` https://testthat.r-lib.org/
 
 # Strategy to build a document
 
@@ -32,8 +35,7 @@
 7) Ask feedback to the supervisor, and redo points 2-6 until there is no more feedback
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
-# Various notes
-- Record the meeting every time (For ZOOM, always share the screen and NOT the single application)
+# Coding notes
 - When you meet problems, try to solve yourself first. (google; start with a simpler example)
 - Work in a R project all the times (The R project must be connected with a github repository)
 -	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}). 
@@ -41,7 +43,32 @@
 -	Commit at the end of the day ONLY the R files to your github repository
 -	Nowhere in the variables or file names there should be a space character “ “ 
 
+# Further notes
+1) Scientific writing course https://www.coursera.org/learn/sciwrite
+2) Variable names and file names should not include acronyms and if your cousin opens your code should be able to understand what the variable is from the variable name
+3) A bad example is df, which is not a word included in the English disctionary
+4) A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
+5) ForZOOM, always share the screen and NOT the single application
+6) For ZOOM always ask to start the recording at enery meeting, at the very beginning
 
+# How to close your project
 
+Please add the following documentation to the README
 
+- list all directories in the local git directory (some of the will be also present in github) and what they include
+- list all R script and declare what they do in lay terms, what inputs they take and what outputs they produce
+- list all local data files and what they include
+- Add all the steps with code for reproducing your results from raw data. For example,
+
+```bash
+# Preprocess the data
+Rscript MY_SCRIPT.R
+
+# Execute differential analyses for XXX dataset
+makeflow XXX
+
+...
+```
+
+- Try to reproduce your own documentation/code and see fi the results/figures get produced as expected without errors (maybe do al this in a copy of your repository to avoid to overwrite your results).
 
