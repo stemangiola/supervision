@@ -36,20 +36,20 @@
 8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
 
 # Coding notes
-- When you meet problems, try to solve yourself first. (google; start with a simpler example)
+- When you meet problems, try to solve yourself first. (google; start with a simpler example), then discuss with supervisor.
 - Work in a R project all the times (The R project must be connected with a github repository)
 -	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}). 
--	Email helpdesk to make sure you are working in the right hard drive
--	Commit at the end of the day ONLY the R files to your github repository
+-	Email helpdesk to make sure you are working in the right hard drive, that has a backup and is not your home directory, which does not have much drive space.
+-	Commit with git at the end of the day (or more frequently) ONLY the R files to your github repository
 -	Nowhere in the variables or file names there should be a space character “ “ 
+- Variable names and file names should not include acronyms and if your cousin opens your code should be able to understand what the variable is from the variable name
+- A bad example is df, which is not a word included in the English disctionary
+- A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
 
 # Further notes
-1) Scientific writing course https://www.coursera.org/learn/sciwrite
-2) Variable names and file names should not include acronyms and if your cousin opens your code should be able to understand what the variable is from the variable name
-3) A bad example is df, which is not a word included in the English disctionary
-4) A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
-5) ForZOOM, always share the screen and NOT the single application
-6) For ZOOM always ask to start the recording at enery meeting, at the very beginning
+- Scientific writing course https://www.coursera.org/learn/sciwrite
+- ForZOOM, always share the screen and not the single application
+- For ZOOM always ask to start the recording at enery meeting, at the very beginning
 
 # How to close your project
 
