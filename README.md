@@ -61,6 +61,12 @@ Heva a look to these two images and spot all the details that make them differen
 :-------------------------:|:-------------------------:
 <img width="699" alt="image" src="https://user-images.githubusercontent.com/7232890/222042169-cb1c9a22-97d0-45ee-966c-0cbab7b4bf0b.png">  |  <img width="679" alt="image" src="https://user-images.githubusercontent.com/7232890/222042234-cb93128e-0f30-48f1-a30c-771b068f7376.png">
 
+1            |  2
+:-------------------------:|:-------------------------:
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/7232890/222043610-d79e079b-0cd4-42f2-b17e-94e38e4beb52.png"> | <img width="403" alt="image" src="https://user-images.githubusercontent.com/7232890/222043751-0c252d58-7d84-40c2-85b3-9d7c2dcf7bdf.png">
+
+
+
 
 
 # How to close your project
