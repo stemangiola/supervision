@@ -51,6 +51,18 @@
 - ForZOOM, always share the screen and not the single application
 - For ZOOM always ask to start the recording at enery meeting, at the very beginning
 
+# Figure, attention to detail
+
+It is important to develop an extremely good attention to detail for image composition. In terms of design, alignment, harmony, information concentration, consistency of fonts, line thickness, line color.
+
+Heva a look to these two images and spot all the details that make them different
+
+1            |  2
+:-------------------------:|:-------------------------:
+<img width="699" alt="image" src="https://user-images.githubusercontent.com/7232890/222042169-cb1c9a22-97d0-45ee-966c-0cbab7b4bf0b.png">  |  <img width="679" alt="image" src="https://user-images.githubusercontent.com/7232890/222042234-cb93128e-0f30-48f1-a30c-771b068f7376.png">
+
+
+
 # How to close your project
 
 Please add the following documentation to the README
