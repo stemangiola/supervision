@@ -16,14 +16,16 @@
 4)	Github tutorial https://guides.github.com/activities/hello-world/
 5)	Git in Rstudio https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/
 6)	Git/github in Rstudio (video) https://www.youtube.com/watch?v=megZYkCLMA4 
-7)  Bulk transcriptomics fundamentals https://doi.org/10.1093/bib/bbac529
-8)	Tidy transcriptomics https://stemangiola.github.io/bioc2021_tidytranscriptomics/articles/tidytranscriptomics.html
-9)	Single cell analyses using Seurat 
+7)  Bulk transcriptomics fundamentals 
+- https://doi.org/10.1093/bib/bbac529
+- annualreviews.org/doi/abs/10.1146/annurev-biodatasci-072018-021255
+9)	Tidy transcriptomics https://stemangiola.github.io/bioc2021_tidytranscriptomics/articles/tidytranscriptomics.html
+10)	Single cell analyses using Seurat 
 - https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
 - https://satijalab.org/seurat/articles/integration_introduction.html
-10)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
-11)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
-12)	Unit-tests when building packages/sorftware with `testthat` https://testthat.r-lib.org/
+11)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
+12)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
+13)	Unit-tests when building packages/sorftware with `testthat` https://testthat.r-lib.org/
 
 # Strategy to build a document
 
