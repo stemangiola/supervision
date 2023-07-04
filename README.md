@@ -20,45 +20,61 @@
 - https://doi.org/10.1093/bib/bbac529
 - annualreviews.org/doi/abs/10.1146/annurev-biodatasci-072018-021255
 9)	Tidy transcriptomics https://stemangiola.github.io/bioc2021_tidytranscriptomics/articles/tidytranscriptomics.html
-10)	Single cell analyses using Seurat 
+10)	Single-cell analyses using Seurat 
 - https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
 - https://satijalab.org/seurat/articles/integration_introduction.html
 11)	Code debugging in R/Rstudio https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE
 12)	Design matrix https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873980/
-13)	Unit-tests when building packages/sorftware with `testthat` https://testthat.r-lib.org/
+13)	Unit tests when building packages/software with `testthat` https://testthat.r-lib.org/
 
 # Strategy to build a document
 
-1) Create Google doc
+1) Create a Google doc
 2) create an automatic table of content (based on headers, google how to do it)
 3) Write the headers of the main sections (whatever the requirements are, e.g. introduction, rationale, methods, results)
 4) Write the headers of the subsections
 5) Write the headers of the sub-subsections
-6) Write the titles of the paragraphs for each sub-subsection (these describe what each paragraph includes, a the end before submission they will be deleted)
-7) Ask feedback to the supervisor, and redo points 2-6 until there is no more feedback
-8) Fill the content of the paragraphs, without eliminating any headers (each paragraph should be similar length, if not create more (6))
+6) Write the titles of the paragraphs for each sub-subsection (these describe what each paragraph includes, a the end, before submission, they will be deleted)
+7) Ask for feedback from the supervisor, and redo points 2-6 until there is no more feedback
+8) Fill the content of the paragraphs without eliminating any headers (each paragraph should be similar in length, if not, create more (6))
+
+# Strategy to build a presentation
+1) Set up the number of slides to ~70% of the number of presentation minutes (excluding questions; e.g. 30 minutes = ~20 slides).
+2) Write the content/title of each slide as bullet points.
+3) The title should be active (e.g. NK cells in cancer are enriched for Interleukin-6) rather than descriptive (e.g. UMAP of NK cells in cancer versus healthy).
+4) One of the first slides should show the importance and the rationale of your work (why the world needs what you are doing and why nobody else can do it).
+5) Avoid acronyms and abbreviations anywhere in the presentation.
+6) All plots should have X and Y-axis titles, including units (e.g. scaled gene-transcript counts, ml, mol/ml).
+7) All text in the figures should be at least 9 points (figures should be exported in a way to control for that size).
+8) Aim to have the talk rehearsed at least one week before. The following are useful steps to get ready:
+ - Write down what you would say for each slide in a concise and elegant way
+ - Practice first without time, a few times, and write down one/two words per slide that you keep forgetting and/or are good hooks for a smooth presentation (e.g. a word that has a lot of meaning, but that if you forget you will need to use 20 words to express the same meaning)
+ - Practice a few times with time, and realise if you need to cut down material
+ - Practice a few times recording yourself with video, and realise what you can improve for the execution
+ - Aim not to have to read any notes during your presentation
+10) Ask colleagues about a few questions they might have, and do a good literature review about how many laboratories have used your (or alternative) techniques/principles applied to your or other diseases.
 
 # Coding notes
-- When you meet problems, try to solve yourself first. (google; start with a simpler example), then discuss with supervisor.
-- Work in a R project all the times (The R project must be connected with a github repository)
+- When you meet problems, try to solve them yourself first. (google; start with a simpler example), then discuss it with the supervisor.
+- Work within an R project all the time (The R project must be connected with a github repository)
 -	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}). 
--	Email helpdesk to make sure you are working in the right hard drive, that has a backup and is not your home directory, which does not have much drive space.
+-	Email the helpdesk to make sure you are working on the right hard drive that has a backup and is not your home directory, which does not have much drive space.
 -	Commit with git at the end of the day (or more frequently) ONLY the R files to your github repository
--	Nowhere in the variables or file names there should be a space character “ “ 
-- Variable names and file names should not include acronyms and if your cousin opens your code should be able to understand what the variable is from the variable name
-- A bad example is df, which is not a word included in the English disctionary
+-	Nowhere in the variables or file names should there be a space character “ “ 
+- Variable names and file names should not include acronyms, and if your cousin opens your code should be able to understand what the variable is from the variable name
+- A bad example is df, which is not a word included in the English dictionary
 - A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
 
 # Further notes
 - Scientific writing course https://www.coursera.org/learn/sciwrite
 - ForZOOM, always share the screen and not the single application
-- For ZOOM always ask to start the recording at enery meeting, at the very beginning
+- For ZOOM, always ask to start the recording at every meeting at the very beginning
 
 # Figure, attention to detail
 
-It is important to develop an extremely good attention to detail for image composition. In terms of design, alignment, harmony, information concentration, consistency of fonts, line thickness, line color.
+It is important to develop extremely good attention to detail for image composition. In terms of design, alignment, harmony, information concentration, consistency of fonts, line thickness, and line colour.
 
-Heva a look to these two images and spot all the details that make them different
+Have a look at these two images and spot all the details that make them different
 
 1            |  2
 :-------------------------:|:-------------------------:
@@ -77,7 +93,7 @@ Heva a look to these two images and spot all the details that make them differen
 Please add the following documentation to the README
 
 - list all directories in the local git directory (some of the will be also present in github) and what they include
-- list all R script and declare what they do in lay terms, what inputs they take and what outputs they produce
+- list all R scripts and declare what they do in lay terms, what inputs they take and what outputs they produce
 - list all local data files and what they include
 - Add all the steps with code for reproducing your results from raw data. For example,
 
@@ -91,5 +107,5 @@ makeflow XXX
 ...
 ```
 
-- Try to reproduce your own documentation/code and see fi the results/figures get produced as expected without errors (maybe do al this in a copy of your repository to avoid to overwrite your results).
+- Try to reproduce your own documentation/code and see if the results/figures get produced as expected without errors (maybe do all this in a copy of your repository to avoid to overwrite your results).
 
