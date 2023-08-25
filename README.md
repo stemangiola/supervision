@@ -38,6 +38,31 @@
 7) Ask for feedback from the supervisor, and redo points 2-6 until there is no more feedback
 8) Fill the content of the paragraphs without eliminating any headers (each paragraph should be similar in length, if not, create more (6))
 
+## How should the Introduction section be organised
+
+### Paragraph 1: General Introduction
+Start with a broad and concise statement that introduces the general field of study and the overarching problem you are addressing. This paragraph should provide context for your research and highlight the significance of the topic.
+
+### Paragraph 2: Specific Problem
+Narrow down the focus from the general field to the specific problem or gap in knowledge that your study aims to address. Explain why this problem is important, highlighting any limitations or gaps in current methods, techniques, or approaches.
+
+### Paragraph 3: Relevance and Impact
+Emphasize the significance of solving the specific problem you've identified. Discuss the potential impact of addressing this problem on the broader scientific community, technological advancements, or real-world applications. Highlight the potential benefits and outcomes of your research.
+
+### Paragraph 4: Previous Approaches
+Briefly summarize the existing methods, techniques, or approaches that have been used to tackle the problem. Discuss their strengths and limitations, and explain why these approaches are not sufficient or why there is a need for a new method.
+
+### Paragraph 5: Transition to Your Method
+Introduce the innovative method or approach that you are presenting in your study. Highlight the key features that make your method unique, and explain how it addresses the limitations of existing approaches. You can briefly mention the advantages and potential contributions your method brings to the field.
+
+### Paragraph 6: Objectives of the Study
+Clearly state the objectives or goals of your research. What specific outcomes do you aim to achieve with your new method? This paragraph helps set expectations for the reader about what they can expect from the rest of your paper.
+
+### Paragraph 7: Structure of the Paper
+Conclude your introduction by providing a brief overview of how the paper is structured. Mention the main sections or components of your article, including the methods, results, discussion, and any other relevant sections.
+
+Remember, the introduction should be clear, concise, and engaging. It should provide enough information for the reader to understand the context and importance of your research while also generating interest in the rest of the paper. Make sure to smoothly transition between paragraphs and maintain a logical flow of ideas. Additionally, ensure that your writing is free of jargon and is accessible to a broad audience of researchers in related fields.
+
 # Strategy to build a presentation
 1) Set up the number of slides to ~70% of the number of presentation minutes (excluding questions; e.g. 30 minutes = ~20 slides).
 2) Write the content/title of each slide as bullet points.
