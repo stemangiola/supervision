@@ -82,13 +82,14 @@ Remember, the introduction should be clear, concise, and engaging. It should pro
 # Coding notes
 - When you meet problems, try to solve them yourself first. (google; start with a simpler example), then discuss it with the supervisor.
 - Work within an R project all the time (The R project must be connected with a github repository)
--	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}). 
+-	Any big R object/variable OR an R object/variable that takes a significant amount of time to compute (e.g. takes > 15 minutes OR data before a big change of annotation) should be saved as rds with a meaningful name and date. To save do job::job({saveRDS(…)}).
+-	When working on a project, especially an R package, set up `git`/`github` environment, and **never** duplicate the working directory to try out things; just use `git` to build different branches. For example, your R package is called `myR`, and although `myR` has been setup with `git`, you copy `myR` to `myR_temp` or `myR_new` so you can change a few things and see if they work. This is a bad practice and should be avoided.
 -	Email the helpdesk to make sure you are working on the right hard drive that has a backup and is not your home directory, which does not have much drive space.
 -	Commit with git at the end of the day (or more frequently) ONLY the R files to your github repository
 -	Nowhere in the variables or file names should there be a space character “ “ 
 - Variable names and file names should not include acronyms, and if your cousin opens your code should be able to understand what the variable is from the variable name
-- A bad example is df, which is not a word included in the English dictionary
-- A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
+--  A bad example is df, which is not a word included in the English dictionary
+--  A good example is b_cell_filtered, b_cell_pseudobulk, b_cell_for_boxplot 
 
 # Further notes
 - Scientific writing course https://www.coursera.org/learn/sciwrite
